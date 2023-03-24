@@ -1,0 +1,129 @@
+.destino-lista {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lista-conteudo {
+  position: relative;
+}
+
+.botao-fav {
+  position: absolute;
+  right: 0;
+  margin: 10px 10px 0 0;
+}
+
+.botao-fav:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.botao-fav:active {
+  transform: scale(1);
+}
+
+.destino-lista h1 {
+  margin-bottom: 60px;
+  position: relative;
+}
+.destino-lista h1::before {
+  content: "";
+  width: 583px;
+  height: 80px;
+  display: inline-block;
+  position: absolute;
+  background: url("/img/svg/detalhe-destino.svg");
+  z-index: -1;
+  left: -70px;
+  bottom: 10px;
+}
+
+.lista-item {
+  display: flex;
+  gap: 40px;
+}
+
+.seta-owl {
+  margin-top: 116.59px;
+  cursor: pointer;
+}
+
+.lista-item img {
+  margin-bottom: 12px;
+  max-height: 400px;
+}
+
+.conteudo-detalhes button {
+  font-size: 0.75rem;
+}
+
+.local-detalhe {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.carrossel {
+  margin-top: 40px;
+  display: flex;
+  gap: 5px;
+}
+
+.carrossel img {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .lista-item {
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 40px;
+    position: relative;
+  }
+
+  .lista-item::before {
+    content: "";
+    width: 14px;
+    height: 24px;
+    display: inline-block;
+    background: url("/img/svg/seta-esquerda.svg");
+    position: absolute;
+    top: 202.65px;
+    left: -40px;
+    z-index: 1;
+  }
+
+  .destino-lista h1::before {
+    display: none;
+  }
+
+  .lista-item::after {
+    content: "";
+    width: 14px;
+    height: 24px;
+    display: inline-block;
+    background: url("/img/svg/seta-direita.svg");
+    position: absolute;
+    top: 202.65px;
+    right: -40px;
+    z-index: 1;
+  }
+  .seta-owl {
+    display: none;
+  }
+  .conteudo-detalhes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .destino-lista h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+
+  .lista-conteudo:nth-child(2),
+  .lista-conteudo:nth-child(4) {
+    display: none;
+  }
+}

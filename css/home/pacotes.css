@@ -1,0 +1,272 @@
+.pacote-bg {
+  background-color: var(--cor-p1);
+  padding-bottom: 120px;
+}
+
+.pacote-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+
+.pacote-area::before {
+  content: "";
+  min-width: 358px;
+  min-height: 90px;
+  display: block;
+
+  background: url("/img/svg/detalhe-onda.svg");
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.pacote-area::after {
+  content: "";
+  min-width: 358px;
+  min-height: 90px;
+  display: block;
+
+  background: url("/img/svg/detalhe-onda.svg");
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+
+.pacote-texto h1:nth-child(2) {
+  margin-left: 160px;
+}
+
+.pacote-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.pacote-detalhes {
+  position: relative;
+}
+
+.pacote-detalhes:nth-child(2) {
+  margin-top: 60px;
+}
+
+.pacote-detalhes ul {
+  display: inline-block;
+  background-color: var(--cor-p7);
+
+  padding: 8px 12px;
+  border-radius: 0 0 3px 3px;
+  color: var(--cor-p8);
+}
+.pacote-detalhes ul li {
+  position: relative;
+}
+
+.pacote-detalhes ul li:nth-child(1):before {
+  content: "";
+  width: 90px;
+  height: 22px;
+  display: block;
+  background: url("/img/svg/detalhe-linha.svg");
+  position: absolute;
+  top: 7px;
+}
+
+.pacote-detalhes ul li:nth-child(odd) {
+  color: var(--cor-p9);
+}
+
+.pacote-texto {
+  padding-top: 120px;
+  margin-bottom: 80px;
+}
+
+.pacote-detalhes img {
+  object-fit: cover;
+  width: 700px;
+  height: 400px;
+  border-radius: 3px 3px 3px 0;
+
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.caixa-pacote {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detalhe-estrela {
+  z-index: 1;
+  position: absolute;
+  left: 10px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  font: 600 2rem/1.125 "Open Sans", sans-serif;
+  color: #4e4843;
+  cursor: default;
+  margin: 15px 0 0 15px;
+}
+
+.detalhe-estrela img {
+  width: 27.5px;
+  height: 31.49px;
+  box-shadow: none;
+}
+
+.barra-pesquisa2 {
+  display: flex;
+}
+
+.barra-pesquisa2 form {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.barra-pesquisa2 input {
+  font: 400 1rem/1.5 "Open Sans", sans-serif;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid var(--cor-2);
+  box-sizing: border-box;
+  padding: 8px 16px;
+  width: 455px;
+}
+
+.barra-pesquisa2 input:focus {
+  outline: none;
+}
+
+.barra-pesquisa2 button {
+  border-radius: 0 3px 3px 0;
+}
+
+.comprar-viagem {
+  margin-top: 420px;
+}
+
+.pacote-beneficios {
+  align-self: flex-end;
+  background-color: #ffc684;
+  padding: 42px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.pacote-beneficios::before {
+  content: "";
+  min-width: 600px;
+  min-height: 299px;
+
+  display: block;
+  background: url("/img/svg/detalhe-setas.svg") no-repeat;
+  position: absolute;
+
+  right: 285px;
+  top: -190px;
+}
+
+.pacote-beneficios ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pacote-beneficios ul li:last-child {
+  margin-bottom: 0;
+}
+
+.comprar-viagem h1 {
+  margin-bottom: 24px;
+}
+
+.imagem-pacote {
+  position: relative;
+}
+
+.imagem-pacote::before {
+  content: "niederbauen, Suécia";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font: 600 2rem/1.125 "Open Sans", sans-serif;
+}
+.imagem-pacote2 {
+  position: relative;
+}
+
+.imagem-pacote2::before {
+  content: "molden, Noruega";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font: 600 2rem/1.125 "Open Sans", sans-serif;
+}
+
+@media (max-width: 1100px) {
+  .caixa-pacote {
+    flex-direction: column-reverse;
+  }
+
+  .comprar-viagem {
+    margin-top: 160px;
+  }
+
+  .pacote-beneficios {
+    align-self: flex-start;
+    margin-top: 100px;
+  }
+  .pacote-beneficios::before {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .pacote-texto h1 {
+    font-size: 3rem;
+  }
+  .pacote-texto h1:nth-child(2) {
+    margin-left: initial;
+  }
+  .pacote-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .pacote-detalhes img {
+    object-position: 70% 60%;
+  }
+
+  .pacote-area::after {
+    display: none;
+  }
+  .comprar-viagem h1 {
+    font-size: 2.5rem;
+  }
+
+  .pacote-area::before {
+    left: 160px;
+  }
+
+  .barra-pesquisa2 input {
+    width: 225px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pacote-area::before {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+/*global*/
+@import url("./global/global.css");
+@import url("./global/header.css");
+
+/*componentes, cores, tipografia*/
+@import url("./utilidades/componentes.css");
+@import url("./utilidades/cores.css");
+@import url("./utilidades/tipografia.css");
+
+/* homepage */ /* homepage */
+@import url("./home/introducao.css");
+@import url("./home/destino.css");
+@import url("./home/pacotes.css");
+@import url("./home/beneficios.css");

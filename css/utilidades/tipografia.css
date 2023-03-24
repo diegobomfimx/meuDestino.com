@@ -1,0 +1,50 @@
+/* extra big fonts*/ /* extra big fonts*/ /* extra big fonts*/
+
+.font-1-xxl {
+  font: 700 4rem/1.125 "Playfair Display", serif;
+}
+
+.font-2-xl {
+  font: 600 3.375rem/1.125 "Playfair Display", serif;
+}
+
+/*semibold fonts*/ /*semibold fonts*/ /*semibold fonts*/
+
+.font-1-sb {
+  font: 600 2rem/1.125 "Open Sans", sans-serif;
+}
+
+.font-2-sb {
+  font: 600 1.25rem/1.35 "Open Sans", sans-serif;
+}
+
+.font-3-sb {
+  font: 600 1.125rem/1.35 "Open Sans", sans-serif;
+}
+
+.font-4-sb {
+  font: 600 1rem/1.5 "Open Sans", sans-serif;
+}
+
+.font-5-sb {
+  font: 600 0.75rem/1.35 "Open Sans", sans-serif;
+}
+/* bold fonts*/ /* bold fonts*/ /* bold fonts*/
+
+.font-1-b {
+  font: 700 1.5rem/1.5 "Open Sans", sans-serif;
+}
+
+.font-2-b {
+  font: 700 1.125rem/1.35 "Open Sans", sans-serif;
+}
+
+.font-2-b {
+  font: 700 0.75rem/1.5 "Open Sans", sans-serif;
+}
+
+/* regular fonts */ /* regular fonts */ /* regular fonts */
+
+.font-1-r {
+  font: 400 1.125rem/1.35 "Open Sans", sans-serif;
+}
