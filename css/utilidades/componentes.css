@@ -19,3 +19,8 @@
   cursor: pointer;
   max-width: max-content;
 }
+
+.botao:hover {
+  background-color: #f39f3d;
+  transition: 0.3s;
+}

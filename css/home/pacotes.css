@@ -144,6 +144,11 @@
   border-radius: 0 3px 3px 0;
 }
 
+.barra-pesquisa2 button:hover {
+  background-color: #884a02 !important;
+  color: #ffe8cc;
+}
+
 .comprar-viagem {
   margin-top: 420px;
 }

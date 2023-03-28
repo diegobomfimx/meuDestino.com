@@ -11,6 +11,31 @@
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-menu a {
+  position: relative;
+  display: inline-block;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
+  width: 100%;
+}
+
+.header-menu .botao::after {
+  display: none;
 }
 
 @media (max-width: 800px) {

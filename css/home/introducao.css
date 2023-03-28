@@ -42,6 +42,11 @@
   border-radius: 0 3px 3px 0;
 }
 
+.barra-pesquisa button:hover {
+  background-color: #f39f3d;
+  transition: 0.3s;
+}
+
 .barra-pesquisa input:focus {
   outline: none;
 }
