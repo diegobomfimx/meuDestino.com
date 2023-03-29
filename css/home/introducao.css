@@ -1,6 +1,6 @@
 .introducao-bg {
   height: 800px;
-  background: url("/img/header-img.jpg");
+  background: url("../../img/header-img.jpg");
   background-size: cover;
   display: grid;
 }

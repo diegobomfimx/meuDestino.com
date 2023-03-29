@@ -1,0 +1,62 @@
+.contato-area {
+  padding-top: 120px;
+  background-color: var(--cor-p1);
+}
+
+.contato-area2 {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.contato-area h1 {
+  padding-bottom: 40px;
+}
+
+.contato-conteudo h2 {
+  margin-bottom: 40px;
+}
+
+.area-form {
+  background-color: #ffffff;
+  border: 1px solid var(--cor-p2);
+  padding: 60px;
+  border-radius: 3px;
+}
+
+.area-form {
+  width: 50%;
+}
+
+.form-dados {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.form-dados label {
+  display: block;
+  margin-bottom: 5px;
+  font: 400 1.125rem/1.35 "Open Sans", sans-serif;
+}
+
+.form-dados button {
+  padding: 16px;
+  font-size: 1.1rem;
+}
+
+.form-dados input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+  background: #f1f1f1;
+  border-radius: 3px;
+  font: 400 1rem/1.5 "Open Sans", sans-serif;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
