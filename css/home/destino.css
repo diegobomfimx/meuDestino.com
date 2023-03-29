@@ -33,7 +33,7 @@
   height: 80px;
   display: inline-block;
   position: absolute;
-  background: url("/img/svg/detalhe-destino.svg");
+  background: url("../../img/svg/detalhe-destino.svg");
   z-index: -1;
   left: -70px;
   bottom: 10px;
@@ -87,7 +87,7 @@
     width: 14px;
     height: 24px;
     display: inline-block;
-    background: url("/img/svg/seta-esquerda.svg");
+    background: url("../../img/svg/seta-esquerda.svg");
     position: absolute;
     top: 202.65px;
     left: -40px;
@@ -103,7 +103,7 @@
     width: 14px;
     height: 24px;
     display: inline-block;
-    background: url("/img/svg/seta-direita.svg");
+    background: url("../../img/svg/seta-direita.svg");
     position: absolute;
     top: 202.65px;
     right: -40px;

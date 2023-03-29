@@ -17,7 +17,7 @@
   min-height: 90px;
   display: block;
 
-  background: url("/img/svg/detalhe-onda.svg");
+  background: url("../../img/svg/detalhe-onda.svg");
   position: absolute;
   top: -40px;
   left: 0;
@@ -29,7 +29,7 @@
   min-height: 90px;
   display: block;
 
-  background: url("/img/svg/detalhe-onda.svg");
+  background: url("../../img/svg/detalhe-onda.svg");
   position: absolute;
   top: -40px;
   right: 0;
@@ -70,7 +70,7 @@
   width: 90px;
   height: 22px;
   display: block;
-  background: url("/img/svg/detalhe-linha.svg");
+  background: url("../../img/svg/detalhe-linha.svg");
   position: absolute;
   top: 7px;
 }
@@ -170,7 +170,7 @@
   min-height: 299px;
 
   display: block;
-  background: url("/img/svg/detalhe-setas.svg") no-repeat;
+  background: url("../../img/svg/detalhe-setas.svg") no-repeat;
   position: absolute;
 
   right: 285px;

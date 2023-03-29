@@ -32,7 +32,7 @@
   width: 12px;
   height: 16px;
   display: block;
-  background: url("/img/svg/local-icon.svg");
+  background: url("../../img/svg/local-icon.svg");
   position: absolute;
   top: 13px;
   left: 200px;
