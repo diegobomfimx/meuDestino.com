@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.destino-lista {
+  scroll-behavior: smooth;
+}
+
 .botao-fav {
   position: absolute;
   right: 0;

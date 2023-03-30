@@ -24,3 +24,44 @@
   background-color: #f39f3d;
   transition: 0.3s;
 }
+
+.barra-pesquisa.active input {
+  border-radius: 3px 3px 0 0;
+}
+
+.barra-pesquisa .autocom-box {
+  padding: 0;
+  opacity: 0;
+  margin-top: 1px;
+  pointer-events: none;
+  max-height: 280px;
+  overflow: none;
+  position: absolute;
+  background: #fff;
+  width: 204px;
+  border-radius: 0 0 3px 3px;
+  transition: 0.3s;
+}
+
+.barra-pesquisa.active .autocom-box {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li {
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+
+  cursor: default;
+  border-radius: 3px;
+}
+
+.barra-pesquisa.active .autocom-box li {
+  display: block;
+}
+
+.autocom-box li:hover {
+  background: #efefef;
+}

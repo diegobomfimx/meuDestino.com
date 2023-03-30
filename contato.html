@@ -8,7 +8,9 @@
   <title>meuDestino.com</title>
   <meta name="description" content="As melhores viagens para acampar, venha conferir lugares incríveis! Explore o mundo conosco.">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,11 +32,11 @@
     </div>
   </header>
 
-  <section class="contato-area cont">
+  <section class="contato-area">
 
-    <h1 class="font-1-xxl container">Entre em contato conosco</h1>
+    <h1 class="font-1-xxl container fadeInLeft" data-anime="200">Entre em contato conosco</h1>
   </section>
-  <section class="contato-area2">
+  <section class="contato-area2 fadeInUp" data-anime="400">
     <div class="contato-conteudo container">
 
       <div class="formulario-contato">
@@ -104,7 +106,8 @@
     </div>
 
   </footer>
-
+  <script src="./plugins/simple-anime.js"></script>
+  <script src="./js/simple-anime.js"></script>
 </body>
 
 </html>

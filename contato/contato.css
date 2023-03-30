@@ -1,11 +1,12 @@
 .contato-area {
-  padding-top: 120px;
+  padding-top: 80px;
   background-color: var(--cor-p1);
 }
 
 .contato-area2 {
   padding-top: 60px;
   padding-bottom: 120px;
+  background-color: var(--cor-2);
 }
 
 .contato-area h1 {
